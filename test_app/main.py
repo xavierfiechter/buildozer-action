@@ -7,6 +7,8 @@ It builds Kivy app with file main.kv.
 from kivy.app import App
 from kivy.lang import Builder
 
+def noop(): 
+    pass
 
 class MainApp(App):
     def build(self):
